@@ -1,0 +1,40 @@
+#head
+{
+    text-align:center;
+    color:white;
+}
+#navi
+{
+    background-color:rgb(116, 176, 220);
+    color:black;
+    text-align:center;
+    padding:1px;
+    font-weight: bolder;
+    font-size:x-large;
+}
+body{
+    background-image:url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=1060&t=st=1700123954~exp=1700124554~hmac=2e060255f7727f82ff9cc2f1c3e0b51790ff0aa8e55c689fecd84513a3ea026d")
+
+}
+.one{
+    background-color:rgb(116, 176, 220);
+    text-align:center;
+    padding-bottom:70px;
+    padding-top:70px;
+    margin-left:290px;
+    margin-right:290px;
+    margin-top:50px;
+    border-radius:10px;
+    font-weight: bolder;
+}
+#sub
+{
+    border-radius:5px;
+    padding:10px;
+    padding-right:100px;
+    padding-left:100px;
+    background-color:blue;
+    color:white;
+    font-weight:bold;
+}
+

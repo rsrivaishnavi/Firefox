@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <h1 id="head">Registration Form</h1>
+    <nav id="navi">
+        <p>FireFox</p>
+    </nav>
+    <form>
+        <div class="one">
+        <label for="name" class="na">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <br>
+        <br>
+    
+        <label for="email">Email:</label> 
+        <input type="text" id="email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="sp">Password:</label>
+        <input type="password" id="sp" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="cp">Confirm Password:</label>
+        <input type="password" id="cp" placeholder="Confirm your password">
+        <br>
+        <br>
+        <input type="checkbox" id="che">
+        <label for="che">I accept all terms &conditions</label>
+        <br>
+        <br>
+        <button type="submit" id="sub" onclick="check()">Register Now</button>
+        <p id="res"></p>
+        <script src="reg.js"></script>
+
+        </div>
+
+    </form>
+</body>
+</html>
